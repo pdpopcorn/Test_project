@@ -1,0 +1,46 @@
+.three-column {
+  clear: both;
+}
+
+.left {
+  background: blue;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.middle {
+  background: red;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.right {
+  background: green;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.hidden{
+  display: none;
+}
+
+.my-modal {
+  background: green;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 40%;
+  display: none;
+}
+
+.show {
+  display: block!important;
+}
+
+.close-btn {
+  float: right;
+}
